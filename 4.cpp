@@ -6,7 +6,7 @@ using namespace std;
 
 void readFile(string* rS1)
 {
-    ifstream File("C:\\Users\\TPAHCFOPMATOP\\Documents\\Программирование\\Course_work\\textfile.txt");
+    ifstream File("textfile.txt");
     if (!File.is_open())
     {
         cout << "File not open!\n";
